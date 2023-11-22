@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9c38c6fe-23ac-4fa3-a386-af8ac1ae646e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../auth-service/src/test/java/com/ilyes/microsservice/MicrosserviceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/Errors/CustomAuthenticationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/Errors/CustomErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/Errors/UserAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/auth/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/auth/AuthenticationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/auth/AuthenticationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/auth/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/config/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/config/LogoutService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/dto/ClientDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/dto/RegionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/entities/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/entities/EmailDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/entities/ImageModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/entities/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/entities/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/entities/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/entities/TokenType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/repos/ClientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/repos/ImageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/repos/RegionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/repos/TokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/repos/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/restcontroller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/restcontroller/ClientTemplatesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/restcontroller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/restcontroller/EmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/restcontroller/ImageUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/restcontroller/RegionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/restcontroller/RegionTemplatesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/restcontroller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/services/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/services/ClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/services/ClientServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/services/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/services/EmailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/services/RegionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/services/RegionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/services/SharedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ilyes/clients/AlbumsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1696580280140.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1696595325481.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1696595347032.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1696683803010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1697063423048.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1697063688902.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1697063798271.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1697466304578.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1697467070635.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1697467251124.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1697467393253.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1697479619375.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1697479652258.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1697479682267.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1697479752608.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1697480144737.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1697480216109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1697480296816.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1697480321412.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1697480446763.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1697666159231.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1697671407553.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1697677843262.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1697681678234.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1697682556072.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/1697701785447.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/app/services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/app/services/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/app/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/app/users.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/src/main/java/com/ahmed/albums/AlbumsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ilyes/clients/ClientsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/src/main/java/com/ahmed/albums/dto/AlbumDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/src/main/java/com/ahmed/albums/dto/ImageDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/src/main/java/com/ahmed/albums/entities/Album.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/src/main/java/com/ahmed/albums/entities/Image.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/src/main/java/com/ahmed/albums/entities/Label.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/src/main/java/com/ahmed/albums/repos/AlbumRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/src/main/java/com/ahmed/albums/repos/ImageRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/src/main/java/com/ahmed/albums/repos/LabelRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/src/main/java/com/ahmed/albums/restcontroller/AlbumRESTController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/src/main/java/com/ahmed/albums/restcontroller/ImageRESTController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/src/main/java/com/ahmed/albums/restcontroller/LabelRESTController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/src/main/java/com/ahmed/albums/security/JWTAuthorizationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/src/main/java/com/ahmed/albums/security/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/src/main/java/com/ahmed/albums/security/SecurityParams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/src/main/java/com/ahmed/albums/service/AlbumService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/src/main/java/com/ahmed/albums/service/AlbumServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/src/main/java/com/ahmed/albums/service/ImageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/src/main/java/com/ahmed/albums/service/ImageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../albums-service/src/test/java/com/ahmed/albums/AlbumsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/maher/microsservice/MicrosserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/src/main/java/com/ilyes/microsservice/MicrosserviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/maher/microsservice/Repos/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/src/main/java/com/ilyes/microsservice/Repos/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/maher/microsservice/Repos/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/src/main/java/com/ilyes/microsservice/Repos/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/maher/microsservice/config/MailStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/src/main/java/com/ilyes/microsservice/config/MailStructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/maher/microsservice/entities/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/src/main/java/com/ilyes/microsservice/entities/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/maher/microsservice/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/src/main/java/com/ilyes/microsservice/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/maher/microsservice/exceptions/EnabledException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/src/main/java/com/ilyes/microsservice/exceptions/EnabledException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/maher/microsservice/exceptions/UserAccountNotEnabledException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/src/main/java/com/ilyes/microsservice/exceptions/UserAccountNotEnabledException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/maher/microsservice/restControllers/MailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/src/main/java/com/ilyes/microsservice/restControllers/MailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/maher/microsservice/restControllers/UserRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/src/main/java/com/ilyes/microsservice/restControllers/UserRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/maher/microsservice/security/JWTAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/src/main/java/com/ilyes/microsservice/security/JWTAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/maher/microsservice/security/JWTAuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/src/main/java/com/ilyes/microsservice/security/JWTAuthorizationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/maher/microsservice/security/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/src/main/java/com/ilyes/microsservice/security/MyUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/maher/microsservice/security/SecParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/src/main/java/com/ilyes/microsservice/security/SecParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/maher/microsservice/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/src/main/java/com/ilyes/microsservice/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/maher/microsservice/service/MailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/src/main/java/com/ilyes/microsservice/service/MailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/maher/microsservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/src/main/java/com/ilyes/microsservice/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/maher/microsservice/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/src/main/java/com/ilyes/microsservice/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/src/test/java/com/maher/microsservice/MicrosserviceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/target/classes/com/maher/microsservice/MicrosserviceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/target/classes/com/maher/microsservice/Repos/RoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/target/classes/com/maher/microsservice/Repos/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/target/classes/com/maher/microsservice/config/MailStructure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/target/classes/com/maher/microsservice/entities/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/target/classes/com/maher/microsservice/entities/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/target/classes/com/maher/microsservice/exceptions/EnabledException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/target/classes/com/maher/microsservice/exceptions/UserAccountNotEnabledException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/target/classes/com/maher/microsservice/restControllers/MailController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/target/classes/com/maher/microsservice/restControllers/UserRestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/target/classes/com/maher/microsservice/security/JWTAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/target/classes/com/maher/microsservice/security/JWTAuthorizationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/target/classes/com/maher/microsservice/security/MyUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/target/classes/com/maher/microsservice/security/SecParams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/target/classes/com/maher/microsservice/security/SecurityConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/target/classes/com/maher/microsservice/security/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/target/classes/com/maher/microsservice/service/MailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/target/classes/com/maher/microsservice/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/target/classes/com/maher/microsservice/service/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth-service/target/test-classes/com/maher/microsservice/MicrosserviceApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-service/src/main/java/com/ahmed/configservice/ConfigServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/src/main/java/com/ilyes/configservice/ConfigServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-service/src/main/resources/configurations/albums.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/src/main/resources/configurations/clients.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-service/src/main/resources/configurations/gateway.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/src/main/resources/configurations/gateway.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-service/src/test/java/com/ahmed/configservice/ConfigServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/src/test/java/com/ilyes/configservice/ConfigServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discovery-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discovery-service/src/main/java/com/ahmed/discoveryservice/DiscoveryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery-service/src/main/java/com/ilyes/discoveryservice/DiscoveryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discovery-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../discovery-service/src/test/java/com/ahmed/discoveryservice/DiscoveryServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../discovery-service/src/test/java/com/ilyes/discoveryservice/DiscoveryServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/src/main/java/com/ahmed/gatewayservice/GatewayServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/src/main/java/com/ilyes/gatewayservice/GatewayServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/src/main/java/com/ahmed/gatewayservice/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/src/main/java/com/ilyes/gatewayservice/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/src/test/java/com/ahmed/gatewayservice/GatewayServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/src/test/java/com/ilyes/gatewayservice/GatewayServiceApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2YSNYRKV7qBqlqNdUEYyr8IsnBe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/3ème DSI/tp_soa/projet/clients-service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3862069",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\3ème DSI\tp_soa\new\Sprint7-Spring\server\clients-service\src\main\java\com\ilyes\clients" />
+      <recent name="D:\3ème DSI\tp_soa\new\Sprint7-Spring\server\clients-service\src\main\java\com\ilyes\clients\repos" />
+      <recent name="D:\3ème DSI\tp_soa\new\Sprint7-Spring\server\clients-service\src\main\java\com\ilyes\clients\entities" />
+      <recent name="D:\3ème DSI\tp_soa\new\Sprint7-Spring\server\clients-service\src\main\java\com\ilyes\clients\security" />
+      <recent name="D:\3ème DSI\tp_soa\new\Sprint7-Spring\server\clients-service\src\main\java\com\ilyes\clients\restcontroller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ilyes.clients.restcontroller" />
+      <recent name="com.ilyes.clients.services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ClientsApplication">
+    <configuration name="ClientsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ilyes.clients.ClientsApplication" />
+      <module name="clients" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ilyes.clients.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="clients-service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="clients-service" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="clients" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ilyes.clients.ClientsApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ilyes.clients.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ClientsApplication" />
+        <item itemvalue="Application.ClientsApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c38c6fe-23ac-4fa3-a386-af8ac1ae646e" name="Changes" comment="" />
+      <created>1700515068091</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700515068091</updated>
+      <workItem from="1700515069153" duration="1352000" />
+      <workItem from="1700596722459" duration="606000" />
+      <workItem from="1700597686713" duration="3411000" />
+      <workItem from="1700643743505" duration="17298000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.BeanDefinitionStoreException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
